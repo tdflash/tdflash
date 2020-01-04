@@ -32,8 +32,8 @@
              <el-table-column
             label="操作">
                         <template v-slot="slot">
-                    <a href="" @click.prevent="toDeleteHandler(slot.row.id)">删除</a>
-                    <a href="" @click.prevent="toUpdateHandler">修改</a>
+                    <a href="" @click.prevent="toDeleteHandler(slot.row.id)"><i class="el-icon-delete"></i></a>
+                    <a href="" @click.prevent="toUpdateHandler"><i class="el-icon-edit"></i></a>
                 </template>
             </el-table-column>
         </el-table>
